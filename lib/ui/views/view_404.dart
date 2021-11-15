@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_web_demo/ui/shared/custom_flat_button.dart';
 
 class View404 extends StatelessWidget {
   const View404({Key? key}) : super(key: key);
@@ -29,11 +28,6 @@ class View404 extends StatelessWidget {
             const SizedBox(
               height: 10,
             ),
-            CustomFlatButton(
-                title: 'Regresar',
-                onPressed: () {
-                  Navigator.pushReplacementNamed(context, '/stateful');
-                })
           ],
         ),
       ),
